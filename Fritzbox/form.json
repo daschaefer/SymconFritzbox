@@ -1,0 +1,39 @@
+{
+	"elements":
+	[
+                { "name": "FBX_IP",                             "type": "ValidationTextBox",    "caption": "IP-Adresse" },
+                { "name": "FBX_USERNAME",                       "type": "ValidationTextBox",    "caption": "Benutzername" },
+                { "name": "FBX_PASSWORD",                       "type": "PasswordTextBox",      "caption": "Passwort" },
+                { "label": "Anrufliste - Einstellungen",        "type": "Label" },
+                { "name": "FBX_CALLLIST_COLUMNS",               "type": "ValidationTextBox",    "caption": "Spalten" },
+                { "name": "FBX_CALLLIST_OUTPUT",                "type": "Select",               "caption": "Ausgabegerät",
+                "options": [
+                        { "label": "Lokales Gerät",     "value": "local" },
+                        { "label": "Sonos",             "value": "sonos" }
+                ]
+                },
+                { "name": "FBX_CALLLIST_REVERSESEARCH",         "type": "Select",               "caption": "Rückwärtssuche",
+                "options": [
+                        { "label": "deaktiviert",       "value": "none" },
+                        { "label": "Das Örtliche (DE)", "value": "oertliche_de" },
+                        { "label": "Klick Tel (DE)",    "value": "klicktel_de" }
+                ]
+                },
+                { "name": "FBX_CALLLIST_TIMELIMIT",             "type": "SelectObject",         "caption": "Zeit Einschränkung" },
+                { "label": "Anrufliste - Anruftypen",           "type": "Label" },
+                { "name": "FBX_CALLLIST_CALLTYPE_1",            "type": "CheckBox",             "caption": "eingehend, angenommen" },
+                { "name": "FBX_CALLLIST_CALLTYPE_2",            "type": "CheckBox",             "caption": "eingehend, nicht angenommen" },
+                { "name": "FBX_CALLLIST_CALLTYPE_3",            "type": "CheckBox",             "caption": "ausgehend" },
+                { "name": "FBX_CALLLIST_CALLTYPE_4",            "type": "CheckBox",             "caption": "Anrufbeantworter, neu" },
+                { "name": "FBX_CALLLIST_CALLTYPE_5",            "type": "CheckBox",             "caption": "Anrufbeantworter, alt" },
+                { "name": "FBX_CALLLIST_CALLTYPE_6",            "type": "CheckBox",             "caption": "Anrufbeantworter, gelöscht" },
+                { "name": "FBX_CALLLIST_CALLTYPE_9",            "type": "CheckBox",             "caption": "eingehend, aktiv" },
+                { "name": "FBX_CALLLIST_CALLTYPE_10",           "type": "CheckBox",             "caption": "eingehend, abgelehnt" },
+                { "name": "FBX_CALLLIST_CALLTYPE_11",           "type": "CheckBox",             "caption": "ausgehend, aktiv" },
+                { "label": "Wahlkonfiguration",                 "type": "Label" }
+	],
+        "actions":
+        [
+                { "type": "Button", "label": "Restart Fritzbox", "onClick": "FBX_Restart($id);" }
+        ]
+}

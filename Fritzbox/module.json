@@ -1,0 +1,14 @@
+{
+	"id": "{3451E847-5EAF-4AA5-AF96-57791FA6DD9F}",
+	"name": "Fritzbox",
+	"type": 3,
+	"vendor": "AVM",
+	"aliases": 
+	[
+		"Fritzbox"
+	],
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "FBX"
+}
