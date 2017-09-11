@@ -58,36 +58,43 @@ FBX_DetailsForPhoneNumber(InstanceID: Integer, phoneNumber: Variant)
 ```
 Rückwärtssuche einer Telefonnummer
 
+---
 ```php
 FBX_DisableCallDiversion(InstanceID: Integer)
 ```
 Rufweiterleitungen deaktivieren
 
+---
 ```php
 FBX_EnableCallDiversion(InstanceID: Integer, diversionNumber: Variant)
 ```
 Rufweiterleitungen aktivieren
 
+---
 ```php
 FBX_GetAmountOfMessages(InstanceID: Integer)
 ```
 Anzahl Mailboxnachrichten ausgeben
 
+---
 ```php
 FBX_GetAmountOfMissedCalls(InstanceID: Integer)
 ```
 Anzahl verpasster Anrufe ausgeben
 
+---
 ```php
 FBX_Restart(InstanceID: Integer)
 ```
 Fritzbox neustarten
 
+---
 ```php
 FBX_Reconnect(InstanceID: Integer)
 ```
 Internetverbindung trennen und neu aufbauen
 
+---
 ```php
 FBX_SetWifiState(InstanceID: Integer)
 ```
