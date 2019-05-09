@@ -208,7 +208,7 @@ class Fritzbox extends IPSModule
                 try {
                     $result = $client->{"X_AVM-DE_GetPhonePort"}(new SoapParam($i,'NewIndex'));
                     if(strlen(trim($result)) > 0) {
-                        $elements .= ',{ "label": '.$result.', "value": '.$result.' }';
+                        $elements .= ',{ "label": "'.$result.'", "value": "'.$result.'" }';
                     }
                 } catch(Exception $e) { }   
             }

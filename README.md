@@ -18,7 +18,6 @@ Die folgenden Funktionalitäten sind implementiert:
   - Abhängig von bereits im System bestehenden Timestamp
   - Abhören der Mailboxnachrichten
 - Aktivieren von WLAN und Gast WLAN
-  - automatisches generieren von WPA Passwörtern des Gast WLAN's
 - Reboot der Fritzbox
 - Reconnect der Internetverbindung
 - Internet Verbindungsstatus und Verbindungsgeschwindigkeiten
@@ -26,11 +25,7 @@ Die folgenden Funktionalitäten sind implementiert:
 
 ## 2. Anforderungen
 - IP-Symcon 4.x installation (Linux / Windows)
-- Bereits bestehende Plex Home Theater Instanz
-  - Windows
-  - Linux
-  - OSX
-  - Rasplex
+- Option "Zugriff für Anwendungen zulassen" unter Netzwerk/Netzwerkeinstellungen muss aktiviert sein
 - Netzwerkverbindung zu einer Fritzbox
 
 ## 3. Vorbereitung & Installation & Konfiguration
